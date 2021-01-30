@@ -7,6 +7,7 @@ docker-compose.ymlは、INTER-Mediatorフレークワークを運用する為、
 
 
 ## 手順
+###手順1 (docker-compose実行前)
 1. 作業ディレクトリを作成します。    
 
     ```
@@ -33,17 +34,30 @@ docker-compose.ymlは、INTER-Mediatorフレークワークを運用する為、
 
 1. INTER-Mediator/INTER-Mediatorリポジトリをフォークする。
 
-    - [GitHub Docs - リポジトリをフォークする](https://docs.github.com/ja/github/getting-started-with-github/fork-a-repo)
+    参考: [GitHub Docs - リポジトリをフォークする](https://docs.github.com/ja/github/getting-started-with-github/fork-a-repo)
+    
+
+
+### 手順2 (docker-composeの実行)
+
+
+
+### 手順3 (docker-compose実行後)
+
+1. 自分のGithub名/INTER-Mediatorをクローンする。
+
+    ```
     $ hoge
     ```
 
-1. hoge
+1. 必要に応じてサンプルデータを変更する
 
     ```
-    $ hoge
+    $ mysql/init/sample_schema_mysql.sql
+    $ postgres/init/sample_schema_pgsql.sql
     ```
 
-1. hoge
+1. INTER-Mediatorのparams.phpを下記のように変更する。
 
     ```
     $ hoge
