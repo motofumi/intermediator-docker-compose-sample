@@ -31,6 +31,29 @@ docker-compose.ymlは、INTER-Mediatorフレークワークを運用する為、
     $ sed -e "s/change_postgres_password/新しいパスワード/" docker-compose.yml
     ```
 
+1. INTER-Mediator/INTER-Mediatorリポジトリをフォークする。
+
+    - [GitHub Docs - リポジトリをフォークする](https://docs.github.com/ja/github/getting-started-with-github/fork-a-repo)
+    $ hoge
+    ```
+
+1. hoge
+
+    ```
+    $ hoge
+    ```
+
+1. hoge
+
+    ```
+    $ hoge
+    ```
+
+1. hoge
+
+    ```
+    $ hoge
+    ```
 
 
 
