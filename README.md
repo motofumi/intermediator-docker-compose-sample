@@ -25,7 +25,13 @@ docker-compose.ymlは、INTER-Mediatorフレークワークを運用する為、
     $ sed -e "s/change_mariadb_password/新しいパスワード/" docker-compose.yml
     ```
 
-1.
+1. 次のコマンドの『あたらしいパスワード』をパスワードに置き換えて、PostgreSQLのルートパスワードを変更する。
+
+    ```
+    $ sed -e "s/change_postgres_password/新しいパスワード/" docker-compose.yml
+    ```
+
+
 
 
 
