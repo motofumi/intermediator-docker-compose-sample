@@ -8,7 +8,9 @@ docker-compose.ymlは、INTER-Mediatorフレークワークを運用する為、
 
 ## 手順
 1. `$ mkdir ~/docker && cd ~/docker`
-2. git clone https://github.com/motofumi/intermediator-docker-compose-sample
+2. `git clone https://github.com/motofumi/intermediator-docker-compose-sample`
+3. `$ sed -e "s/change_mariadb_password/新しいパスワード/" docker-compose.yml`
+
 
 
 
