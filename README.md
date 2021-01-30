@@ -1,0 +1,1 @@
+# intermediator-docker-compose-sample
